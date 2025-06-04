@@ -1,0 +1,11 @@
+package com.projectmongo.project.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+import com.projectmongo.project.domain.Post;
+
+@Repository
+public interface PostRepository extends MongoRepository<Post, String> {
+
+}
